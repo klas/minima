@@ -396,8 +396,8 @@ footer .version                         {   margin: 10px; text-align: center; }
                                         }
 
 .box-top span                           {
-                                            font-size: 1.2em;
-                                            /*text-shadow: 1px 1px 0 #666;*/
+                                            font-size: 1.2em; color: #999;
+                                            text-shadow: 1px 1px 0 #fff;
                                             letter-spacing: 0.06em; text-transform: uppercase;
                                         }
 .box-content                            {   border-top: 1px solid #fff; }

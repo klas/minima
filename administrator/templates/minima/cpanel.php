@@ -48,7 +48,7 @@ $itemid = JRequest::getCmd('Itemid', '');
         #prev, #next { border: 1px solid <?php echo $templateColor; ?>; background: <?php echo $templateColor;?>; background: -moz-linear-gradient(-90deg,<?php echo $templateColor;?>,<?php echo $darkerColor;?>); /* FF3.6 */ background: -webkit-gradient(linear, left top, left bottom, from(<?php echo $templateColor;?>), to(<?php echo $darkerColor;?>)); /* Saf4+, Chrome */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=<?php echo $templateColor;?>, endColorstr=<?php echo $darkerColor;?>); /* IE6,IE7 */ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='<?php echo $templateColor;?>', EndColorStr='<?php echo $darkerColor;?>')"; /* IE8 */ }
         #prev:active, #next:active { background-color: <?php echo $darkerColor; ?>; }
         /*.box:hover { -moz-box-shadow: 0 0 10px <?php echo $templateColor; ?>; -webkit-box-shadow: 0 0 10px <?php echo $templateColor; ?>; box-shadow: 0 0 10px <?php echo $templateColor; ?>; }*/
-        .box-top { color: <?php echo $templateColor; ?>;}
+        .box:hover .box-top span, .box-top:hover span { color: <?php echo $templateColor; ?>; }
         .box-content { border-top: 1px solid <?php echo $templateColor; ?>; }
         #panel-pagination li { color: <?php echo $templateColor; ?>; }
         ::selection { background: <?php echo $templateColor; ?>; color:#000; /* Safari */ }

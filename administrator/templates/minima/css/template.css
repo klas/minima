@@ -337,9 +337,9 @@ footer .version                         {   margin: 10px; text-align: center; }
                                             -moz-border-radius: 6px;
                                             -webkit-border-radius: 6px;
                                             border-radius: 6px;
-                                            -moz-box-shadow: 0 0 4px #ccc;
+                                            /*-moz-box-shadow: 0 0 4px #ccc;
                                             -webkit-box-shadow: 0 0 4px #ccc;
-                                            box-shadow: 0 0 4px #ccc;
+                                            box-shadow: 0 0 4px #ccc;*/
                                             margin-bottom: 15px;
                                             -webkit-transition: all 0.2s ease-in-out;
                                             -moz-transition: all 0.2s ease-in-out;
@@ -349,7 +349,7 @@ footer .version                         {   margin: 10px; text-align: center; }
 
 .box-content                            {
                                             background: #dfdfdf;
-                                            border: 1px solid #ccc; border-top: none; border-left: none;
+                                            /*border: 1px solid #ccc; border-top: none; border-left: none;*/
                                             -moz-border-radius: 0 0 6px 6px;
                                             -webkit-border-radius: 0 0 6px 6px;
                                             border-radius: 0 0 6px 6px;
@@ -385,11 +385,11 @@ footer .version                         {   margin: 10px; text-align: center; }
         .box .adminlist th:first-child  {   padding-left: 10px; }
 
 .box-top                                {
-                                            -moz-border-radius: 6px 6px 0 0;
+                                            /*-moz-border-radius: 6px 6px 0 0;
                                             -webkit-border-radius: 6px 6px 0 0;
-                                            border-radius: 6px 6px 0 0;
-                                            border-bottom: 1px solid #fff;
-                                            color: #fff;
+                                            border-radius: 6px 6px 0 0;*/
+                                            /*border-bottom: 1px solid #fff;*/
+                                            /*color: #333;*/
                                             height: 20px;
                                             line-height:20px;
                                             padding: 5px 5px 5px 10px;
@@ -397,12 +397,12 @@ footer .version                         {   margin: 10px; text-align: center; }
 
 .box-top span                           {
                                             font-size: 1.2em;
-                                            text-shadow: 1px 1px 0 #666;
-                                            letter-spacing: 0.06em;
+                                            /*text-shadow: 1px 1px 0 #666;*/
+                                            letter-spacing: 0.06em; text-transform: uppercase;
                                         }
-
-.box:hover .box-top span, .box-top:hover span
-                                        {   text-shadow: 1px 1px 0 #333; }
+.box-content                            {   border-top: 1px solid #fff; }
+/*.box:hover .box-top span, .box-top:hover span
+                                        {   text-shadow: 1px 1px 0 #333; }*/
 
 /*----------------------------------------------------------------*/                                     
 

@@ -311,4 +311,11 @@ window.addEvent('domready', function() {
 
     }// end of if(tabsWrapper)
 
+    // dashboard icons actions
+    minima.getElements('.box-icon').addEvent('click', function() {        
+        this.toggleClass('hover').getParent('nav').toggleReveal(this.getNext('ul'));
+        //console.log(this);
+    });
+
+
 });

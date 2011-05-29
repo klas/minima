@@ -18,7 +18,7 @@ $published = $this->state->get('filter.published');
 ?>
 <fieldset class="batch">
 	<legend><?php echo JText::_('COM_MENUS_BATCH_OPTIONS');?></legend>
-	<?php if (!defined('MOLAJO_ACL')) : ?>
+	<?php if (!defined('FORKITO_ACL')) : ?>
 	<label id="batch-access-lbl" for="batch-access" class="hasTip" title="<?php echo JText::_('JGLOBAL_BATCH_ACCESS_LABEL').'::'.JText::_('JGLOBAL_BATCH_ACCESS_LABEL_DESC'); ?>">
 		<?php echo JText::_('JGLOBAL_BATCH_ACCESS_LABEL') ?>
 	</label>

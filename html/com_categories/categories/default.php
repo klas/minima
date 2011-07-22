@@ -170,9 +170,11 @@ $saveOrder  = ($listOrder == 'a.lft' && $listDirn == 'asc');
                             <?php echo $orderkey + 1;?>
                         <?php endif; ?>
                     </td>
+                    <?php if (!defined('FORKITO_ACL')) : ?>
                     <td class="center">
                         <?php echo $this->escape($item->access_level); ?>
                     </td>
+                    <?php endif;?>
                     <td class="center nowrap">
                     <?php if ($item->language=='*'):?>
                         <?php echo JText::_('JALL'); ?>
